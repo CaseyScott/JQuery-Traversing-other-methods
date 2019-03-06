@@ -55,6 +55,11 @@ p{
 .blue{
   background-color: blue;
 }
+
+.makeBlack{
+  background-color: black;    
+}
+
 .selected{
     background-color: #F07D00;
 }

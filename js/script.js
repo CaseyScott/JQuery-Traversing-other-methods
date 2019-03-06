@@ -23,8 +23,21 @@ $(document).ready(function(){
         $(".theButton").show();
     });*/
     
-    $(".container").click(function(){
+    /*$(".container").click(function(){
         $(this).siblings().fadeTo('slow', 0.1);
     });
+    
+    $(".superButton").click(function(){
+        $(".container").fadeTo('slow', 1.0);
+    });*/
+    
+    $(".theButton").mouseenter(function(){
+        $(this).addClass("makeBlack");
+    });
+    
+    $(".theButton").mouseout(function(){
+        $(this).removeClass("makeBlack");
+    });
+    
     
 });
